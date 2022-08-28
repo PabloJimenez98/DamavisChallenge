@@ -20,7 +20,7 @@ Remarks:
 For this implementation I have not added functionalities such as saving the path that the snake has followed in each branch of the tree in order to be able to all the different successful paths obtained, as I considered that it would significantly slow down the execution. For its implementation a list would be added, which would be passed by reference, as Python does by default, in which each time the correct path criterion is met a new record would be added to the list.
 For the data input I read them from a txt file which parses the first three lines and transforms the data with the structure described in the statement. Probably it could have been done in a more elegant way, but I did not consider it a priority in the test.
 The program output shows only the number of possible paths on one line and the time in seconds it took to run the program, including reading data from the txt, on the next line.
-
+In the repository there are two contributors 'PabloJimenez98' and 'kropotkin8' both are me but I have the old account on my laptop and I have not changed it yet.
 
 
 
@@ -42,3 +42,4 @@ Observaciones:
 Para esta implementación no he añadido funcionalidades como guardar el camino que ha seguido la serpiente en cada rama del árbol para poder todos los diferentes caminos exitosos obtenido, ya que consideré que ralentizaría significativamente la ejecución. Para su implementación se añadiría una lista, la cual se pasaría por referencia, como hace Python por defecto, en la cual cada vez que se cumpla el criterio de camino correcto se añadiría un nuevo registro a la lista.
 Para la entrada de datos los leo de un archivo txt el cual analiza las tres primeras líneas y transforma los datos con la estructura que se describe en el enunciado. Probablemente se podría haber hecho de manera mas elegante, pero no lo consideré prioritario en la prueba.
 La salida del programa muestra únicamente el número de posibles rutas en una línea y el tiempo en segundos que ha tardado en ejecutarse el programa, incluyendo la lectura de datos del txt, en la siguiente línea.
+En el repositorio hay dos contribuidores 'PabloJimenez98' y 'kropotkin8' ambos soy yo pero es que en el portatil tengo la cuenta antigua y aun no la he cambiado
