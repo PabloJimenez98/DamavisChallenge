@@ -119,7 +119,7 @@ def rec_solv(board_n, board_m, snake, depth, act, sol):
             if act == depth - 1:
                 sol[0] = sol[0] + 1
             else:
-                rec_solv(board_n, board_m, copy.deepcopy(snake), depth, act + 1, sol)
+                rec_solv(board_n, board_m, snake, depth, act + 1, sol)
             snake = sv
 
 
